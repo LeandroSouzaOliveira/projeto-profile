@@ -58,3 +58,11 @@ nav a {
     width: 150px;
     margin-bottom: 35px;
 } 
+
+#profile-container h1 {
+    font-size: 2rem;
+}
+
+#profile-container p {
+    font-size: 1rem;
+}
