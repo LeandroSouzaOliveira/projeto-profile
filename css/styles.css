@@ -45,7 +45,7 @@ nav a {
     font-size: 14px;
 }
 
-#profile-container {
+#profile {
     background-color: #1abc9c;
     display: flex;
     flex-direction: column;
@@ -65,4 +65,31 @@ nav a {
 
 #profile-container p {
     font-size: 1rem;
+}
+
+#portfolio {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#portfolio h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-img-container {
+    width: calc(100% - 40px);
+    max-width: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
 }
